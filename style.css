@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'olney';
+    src: url('olney_light.otf') format('otf'),
+}
+
+*
+{
+	font-family: olney, verdana;
+	color: orange
+}
+
+body
+{
+	background-image: url("Images/BG.png");
+}
+
+h1
+{
+	text-align: center;
+	background-color: rgba(28, 85, 57, 0.95);
+	border: 5px solid black;
+}
+
+h2
+{
+	display:inline;
+}
+
+#nav
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#nav li 
+{
+    background-color: #333;
+}
+
+.list
+{
+    text-align: left;
+}
+
+#nav a {
+    display: block;
+    color: orange;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #222;
+}
+
+section
+{
+	background-color: rgba(28, 85, 57, 0.95);
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+	border: 10px solid black;
+}
+
+a[href]
+{
+    color: yellow;
+}
+
+a[href]:hover
+{
+	color: white;
+}
+
+#dwn
+{
+    display:inline;
+    border: 5px solid black;
+}
