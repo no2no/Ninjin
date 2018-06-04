@@ -2,13 +2,13 @@
 
 @font-face {
     font-family: 'olney';
-    src: url('olney_light.otf') format('otf'),
+    src: url('olney_light.otf') format('otf');
 }
 
 *
 {
 	font-family: olney, verdana;
-	color: orange
+	color: orange;
 }
 
 body
@@ -28,6 +28,11 @@ h2
 	display:inline;
 }
 
+.IPServ
+{
+	color: yellow
+}
+
 #nav
 {
     list-style-type: none;
@@ -42,7 +47,7 @@ h2
     overflow: hidden;
 }
 
-#nav li 
+#nav li
 {
     background-color: #333;
 }
