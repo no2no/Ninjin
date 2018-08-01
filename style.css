@@ -23,6 +23,16 @@ h2
 	display:inline;
 }
 
+p
+{
+    font-size: large;  
+}
+
+strong
+{
+    font-size: 112%;
+}
+
 .IPServ
 {
 	color: yellow
@@ -88,3 +98,10 @@ a[href]:hover
     display:inline;
     border: 5px solid black;
 }
+
+.responsive 
+{
+    max-width: 100%;
+    height: auto;
+}
+
