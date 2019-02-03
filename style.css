@@ -8,24 +8,30 @@
 
 body
 {
-	background-image: url("Images/BG.png");
+    background-image: url("Images/BG.png"), url("Images/BG2.png");
+    background-repeat: no-repeat, repeat;
+    background-size: contain;
 }
 
 h1
 {
 	text-align: center;
-	background-color: rgba(28, 85, 57, 0.95);
-	border: 5px solid black;
 }
 
 h2
 {
-	display:inline;
+    text-align: center;
+    font-size: 35px;
 }
 
 p
 {
-    font-size: large;  
+    font-size: 20px;  
+}
+
+ul
+{
+    font-size: 20px; 
 }
 
 strong
@@ -49,7 +55,6 @@ strong
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 #nav li
@@ -76,11 +81,16 @@ li a:hover {
 
 section
 {
-	background-color: rgba(28, 85, 57, 0.95);
-	text-align: center;
-	margin-left: 20px;
-	margin-right: 20px;
+	background-color: rgba(28, 85, 57, 0.70);
 	border: 10px solid black;
+    margin-left: 10%;
+	margin-right: 10%;
+}
+
+section > *
+{
+    margin-left: 20%;
+	margin-right: 20%;
 }
 
 a[href]
@@ -101,7 +111,22 @@ a[href]:hover
 
 .responsive 
 {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
+.videoDiv
+{
+    position: relative;
+    width: 60%;
+    height: 0;
+    padding-bottom: 33.75%;
+}
 
+.video
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
