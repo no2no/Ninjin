@@ -21,8 +21,8 @@ input
 
 body
 {
-    background-image: url("Images/BG.png"), url("Images/BG2.png");
-    background-repeat: no-repeat, repeat;
+    background-image: url("Images/BG.png");
+    background-repeat: repeat;
     background-size: contain;
 }
 
